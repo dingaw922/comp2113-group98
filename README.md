@@ -23,7 +23,7 @@ The space debris movement will be generated randomly with help of the pseudo-ran
 **2. Data structures for storing game status**  
 Array will be used to store the user’s rocket design, selection of theme, and current difficulty level. 
 
-**3. Dynamic memory management**
+**3. Dynamic memory management**  
 Search tree data structure will be used to store and update the leaderboard for each level.   
 Each node is an array storing the user’s information such as username and highest score at that level.   
 This is useful for insertion of new nodes when there is a new player and for displaying the ranking of the players after each session.   
@@ -34,8 +34,8 @@ Output: User’s game status after each session or at pause
 
 **5. Program codes in multiple files**  
 Different elements and functions of the game will be coded in different files.   
-A makefile will be created to specify the dependency of the files. 
-Below are a brief list of files to be created:
+A makefile will be created to specify the dependency of the files.   
+Below is a brief list of files to be created:
    - Rocket’s movement 
    - Space debris movement 
    - Difficulty level function to modify the speed, frequency and size of space debris movement
@@ -43,5 +43,4 @@ Below are a brief list of files to be created:
    - Countdown timer 
    - Pause functionality
    - User’s rocket design, selection of theme and current status
-   - Main game function with menu for difficulty level selection
-
+   - Main game function with menu for difficulty level selection.
