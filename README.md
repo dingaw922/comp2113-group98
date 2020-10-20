@@ -1,5 +1,4 @@
-# COMP2113 Group 98 - Title
-
+# COMP2113 Group 98 - Space Race
 ## Team Members
 1. Ashley Ng Zhen Zhen 
    - UID: 3035721500
