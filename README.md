@@ -7,14 +7,14 @@
 ## Game Description 
 Space race is a two-player game where each player controls a rocket and moves it vertically up and down to get to the top of the map without knocking into space debris to gain points. The rocket will return back to the starting position each time it hits a horizontally moving spaceship.
 
-Players are able to choose its rocket design for the game. Players are able to choose difficulty of game via numbered levels. A higher level will represent a higher weightage per score. At the end of the game, the final score of each player will be displayed accordingly. A leadership board is created to rank players in the game by score. Players profile such as rocket choice, latest score, position in leaderboard will be stored when player leaves the game and resume from where it last left off.
+Players are able to choose its rocket design for the game. Players are able to choose difficulty of game via numbered levels. A higher level will represent a higher weightage per score, the final score is calculated by the score in each sessions multiplied by the difficulty level and accumulated. A leaderboard is created to rank players in the game by final score. At the end of the game, the final score of each player will be displayed accordingly, followed by the leaderboard. Players profile such as rocket choice, latest score, position in leaderboard will be stored when player leaves the game and resume from where it last left off.
 
 ## Basic Game Rules 
-1. Each game is one minute long and a countdown of time left for the game will be shown.
-2. Players are allowed to control the rockets’ movements vertically but not horizontally.
-3. One point will be awarded for completing each lap. The player with the most points at the end of a session wins.
-4. Leaderboard ranking players from highest score to lowest score will be created. 
-5. There are multiple levels which represent the difficulty of the game, each level varies in frequency of horizontal space debris. 
+ 1. Each game is one minute long and a countdown of time left for the game will be shown.
+ 2. Players are allowed to control the rockets’ movements vertically but not horizontally.
+ 3. One point will be awarded for completing each lap, the player with the most points at the end of a session wins.
+ 4. Leaderboard ranking players from highest score to lowest score will be created. 
+ 5. There are multiple levels which represent the difficulty of the game, each level varies in frequency of horizontal space debris. 
 
 ## Features to be Implemented
 **1. Generation of game sets or events**  
