@@ -1,3 +1,6 @@
+// Filename: game.h
+// Description: Header file for game.cpp
+
 #ifndef GAME_H
 #define GAME_H
 
