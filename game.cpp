@@ -27,6 +27,13 @@ char getRocketDirection()
   return a;
 }
 
+/* Function to initialize the game */
+void initialize()
+{
+    input_init();
+    input_enter_off();
+}
+
 /*Function to check if the rocket collides with the debris
 Check the coordinates of the rocket against all debris in the debrislist
 If collision occurs, the rocket's position will be reset to the startling line.
@@ -73,7 +80,7 @@ void game(Debris debrisList[], User & user1, User & user2, vector<User> &userlis
   Rocket rocket2 = {38, height - 2, 0, user2.u_avatar};
   createDebris(debrisList, numdebris);
   for (int i = 0; i < numdebris; i++) cout << debrisList[i].x << "|" << debrisList[i].y << endl;
-  //initialize();
+  initialize();
   bool gameStatus = true;
   auto startTime = chrono::system_clock::now();
   while (gameStatus){
