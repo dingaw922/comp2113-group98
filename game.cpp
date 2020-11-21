@@ -1,3 +1,6 @@
+// Filename: game.cpp
+// Description: Functions for implementation of Space Race game
+
 #include <iostream>
 #include <stdio.h>          // call getchar()
 #include <stdlib.h>
