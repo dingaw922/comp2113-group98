@@ -1,3 +1,6 @@
+// Filename: rocket.cpp
+// Description: Functions to update rocket position
+
 #include "rocket.h"
 #include "debris.h"
 //#include "macros.h"
