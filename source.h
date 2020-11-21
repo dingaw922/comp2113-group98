@@ -1,3 +1,4 @@
+// Filename: source.h
 // Description: Header file to declare global variables width and height
 
 #ifndef SOURCE_H
