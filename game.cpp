@@ -1,5 +1,5 @@
 // Filename: game.cpp
-// Description: Functions for implementation of one session of Space Race game
+// Description: Functions for implementation of Space Race game during runtime
 
 #include <iostream>
 #include <stdio.h>          // call getchar()
