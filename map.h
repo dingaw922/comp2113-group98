@@ -7,10 +7,8 @@
 #include "map.h"
 #include "debris.h"
 #include "rocket.h"
-//#include "macros.h"
 
-
-
+/* Functions related to Map*/
 void displayMap(char map[height][width]);
 void cleanMap(char map[height][width]);
 void updateRocket(char map[height][width], Rocket rocket);
