@@ -1,5 +1,5 @@
 // Fimename: user.h
-// Description: Header file for user.cpp
+// Description: Headerfile for user.cpp
 
 #ifndef USER_H
 #define USER_H
