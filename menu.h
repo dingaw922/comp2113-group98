@@ -1,4 +1,5 @@
-// menu.h
+// Filename: menu.h
+// Description: Header file for menu.cpp
 
 #ifndef MENU_H
 #define MENU_H
@@ -7,7 +8,6 @@
 #include "user.h"
 #include "game.h"
 #include "debris.h"
-
 
 int displayHelpMenu();
 int level();
