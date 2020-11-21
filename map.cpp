@@ -1,5 +1,5 @@
 // Filename: map.cpp
-// Description: Functions to implement and update map
+// Description: Functions to implement, update and display map
 
 #include <iostream>
 #include <unistd.h>
