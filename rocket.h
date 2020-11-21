@@ -1,3 +1,6 @@
+// Filename: rocket.h
+// Description: Headerfile for rocket.cpp
+
 #ifndef ROCKET_H
 #define ROCKET_H
 
