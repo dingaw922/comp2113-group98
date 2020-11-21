@@ -1,5 +1,5 @@
 // Filename: Main.cpp
-// Description:: Main implementation of the Spcae Race game
+// Description:: Main implementation of the Space Race game
 
 #include <iostream>
 #include <string>
