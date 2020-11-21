@@ -1,5 +1,5 @@
 // Filename: menu.h
-// Description: Header file for menu.cpp
+// Description: Headerfile for menu.cpp
 
 #ifndef MENU_H
 #define MENU_H
