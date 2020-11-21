@@ -1,9 +1,14 @@
-#include "input.h"
+// Filename: input.cpp
+// Description : Function to initialize the game 
+// Referece: Goga Koreli, Snake, (2016), GitHub repository, https://github.com/gogakoreli/snake
+
 #include <termios.h>
 #include <unistd.h>
 #include <bits/stdc++.h>
 #include <string>
 #include <stdio.h>
+
+#include "input.h"
 
 using namespace std;
 
@@ -22,40 +27,6 @@ void input_enter_on()
     t.c_lflag |= ICANON;
     tcsetattr(STDIN_FILENO, TCSANOW, &t);
 }
-/*
-char getRocketDirection(Rocket rocket){
-  char a = getchar();
-  return a;
-}
-*/
-
-/*
-enum Direction get_input()
-{
-    enum Direction result = East;
-    char user_input = getchar();
-    switch (user_input)
-    {
-    case 'a':
-        result = West;
-        break;
-    case 'w':
-        result = North;
-        break;
-    case 'd':
-        result = East;
-        break;
-    case 's':
-        result = South;
-        break;
-    default:
-        result = Error;
-        cout << "Incorrect button clicked(" << user_input << ")" << endl;
-        break;
-    }
-    return result;
-}
-*/
 
 void input_init()
 {
