@@ -7,7 +7,7 @@
 ## Game Description 
 Space race is a two-player game where each player controls a rocket and moves it vertically up and down to get to the top of the map without knocking into space debris to gain points. The rocket will return back to the starting position each time it hits a horizontally moving spaceship.
 
-Players are able to choose its rocket design for the game. Players are able to choose difficulty of game via numbered levels. A higher level will represent a higher weightage per score, the final score is calculated by the score in each sessions multiplied by the difficulty level and accumulated. A leaderboard is created to rank players in the game by final score. At the end of the game, the final score of each player will be displayed accordingly, followed by the leaderboard. Players profile such as rocket choice, latest score, position in leaderboard will be stored when player leaves the game and resume from where it last left off.
+Players are able to choose its rocket design for the game. Players are able to choose difficulty of game via numbered levels. A higher level will represent a higher weightage per score, the final score is calculated by the score in each session multiplied by the difficulty level and accumulated. A leaderboard is created to rank players in the game by final score. At the end of the game, the final score of each player will be displayed accordingly, followed by the leaderboard. Players profile such as name, rocket choice, latest score will be stored when player leaves the game and resume from where it last left off.
 
 ## Basic Game Rules 
  1. Each game is one minute long and a countdown of time left for the game will be shown.
@@ -21,7 +21,7 @@ Players are able to choose its rocket design for the game. Players are able to c
 The space debris movement will be generated according to difficulty level. 
 
 **2. Data structures for storing game status**  
-Array will be used to store the user’s rocket design, score and current difficulty level. 
+Array will be used to store the user’s rocket design, score and name. 
 
 **3. Dynamic memory management**  
 Search tree data structure will be used to store and update the leaderboard for each level.   
