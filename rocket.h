@@ -4,15 +4,16 @@
 #ifndef ROCKET_H
 #define ROCKET_H
 
-//#include "macros.h"
 #include "rocket.h"
 #include "debris.h"
 #include "source.h"
 
-struct Rocket{
-  int x;  // x-axis position
-  int y;
-  int score;
+/* Define struct Rocket with 3 members and 4 member functions */
+struct Rocket
+{
+  int x;        // x-coordinate
+  int y;        // y-coordinate
+  int score;    // runtime score
   char avatar;
 
   void resetRocketPosition();
