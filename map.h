@@ -1,3 +1,6 @@
+// Filename: map.h
+// Description: Header file for map.cpp
+
 #ifndef MAP_H
 #define MAP_H
 
