@@ -1,4 +1,4 @@
-// Filename: user_profile.cpp
+// Filename: user.cpp
 // Description: Member functions for struct User and functions related to User
 
 #include <iostream>
